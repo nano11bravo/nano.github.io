@@ -21,7 +21,7 @@
 title: Nano11Bravo Blog
 email: nano@seven-labs.com
 description: Hello world
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/nano.github.io" # the subpath of your site, e.g. /blog
 url: "https://www.waltontech.org/nano.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: nano11bravo
 github_username:  nano11bravo
