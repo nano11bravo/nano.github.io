@@ -18,9 +18,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Nano11Bravo Blog
+title: Nano11Bravo
 email: nano@seven-labs.com
-description: Hello world
+description: Hello World!
 baseurl: "/nano.github.io" # the subpath of your site, e.g. /blog
 url: "https://www.waltontech.org/nano.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: nano11bravo
