@@ -4,3 +4,4 @@
 
 layout: home
 ---
+Welcome to the blog of nano11bravo. Please choose from the following options. Thanks for visiting!
