@@ -25,6 +25,9 @@ baseurl: "/nano.github.io" # the subpath of your site, e.g. /blog
 url: "https://www.waltontech.org/nano.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: nano11bravo
 github_username:  nano11bravo
+author:
+  name:  Nano11Bravo
+  email: nano@seven-labs.com
 
 accent_image: /assets/img/sidebar-bg.jpg
 accent_color: rgb(79,177,186)
@@ -37,7 +40,7 @@ legal:
 
 hydejack:
   cookies_banner: true
-  
+
 # Build settings
 #theme: minima
 #theme: jekyll-theme-hydejack
