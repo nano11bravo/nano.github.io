@@ -28,8 +28,8 @@ github_username:  nano11bravo
 
 # Build settings
 #theme: minima
-theme: jekyll-theme-hydejack
-#remote_theme: "mcotes2020/jekyll-theme-chirpy"
+#theme: jekyll-theme-hydejack
+remote_theme: "hydecorp/hydejack"
 
 plugins:
   - jekyll-feed
