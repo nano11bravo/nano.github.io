@@ -20,8 +20,7 @@
 
 title: Nano11Bravo Blog
 email: nano@seven-labs.com
-description: >- # this means to ignore newlines until "baseurl:"
-Hello World
+description: Hello world
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.waltontech.org/nano.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: nano11bravo
@@ -30,7 +29,7 @@ github_username:  nano11bravo
 # Build settings
 theme: jekyll-theme-minimal
 plugins:
-  - jekyll-feed
+#  - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
