@@ -26,6 +26,9 @@ url: "https://www.waltontech.org/nano.github.io" # the base hostname & protocol 
 twitter_username: nano11bravo
 github_username:  nano11bravo
 
+accent_image: /assets/img/sidebar-bg.jpg
+accent_color: rgb(79,177,186)
+
 # Build settings
 #theme: minima
 #theme: jekyll-theme-hydejack
