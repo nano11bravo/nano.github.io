@@ -36,15 +36,6 @@ author:
 accent_image: /assets/img/sidebar-bg.jpg
 accent_color: rgb(79,177,186)
 
-legal:
-  - title: Impress
-    url:  /impress/
-  - title: Cookies Policy
-    url:  /cookies-policy/
-
-hydejack:
-  cookies_banner: true
-
 # Build settings
 #theme: minima
 #theme: jekyll-theme-hydejack
