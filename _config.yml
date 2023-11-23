@@ -37,6 +37,18 @@ author:
 accent_image: /assets/img/sidebar-bg.jpg
 accent_color: rgb(79,177,186)
 
+menu:
+  - title: About Me
+    url:   /about/
+  - title: Codespace
+    url:   /codespace/
+  - title: Resume
+    url:   /resume/
+  - title: Reviews
+    url:   /reviews/
+  - title: Social
+    url:   /social/
+
 # Build settings
 #theme: minima
 #theme: jekyll-theme-hydejack
