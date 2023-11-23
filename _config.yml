@@ -27,9 +27,12 @@ twitter_username: nano11bravo
 github_username:  nano11bravo
 
 # Build settings
-theme: jekyll-theme-minimal
+# theme: minima
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+
 plugins:
-#  - jekyll-feed
+  - jekyll-feed
+  - jekyll-include-cache
 
 # Exclude from processing.
 # The following items will not be processed, by default.
