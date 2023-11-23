@@ -27,8 +27,9 @@ twitter_username: nano11bravo
 github_username:  nano11bravo
 
 # Build settings
-# theme: minima
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+#theme: minima
+theme: jekyll-theme-hydejack
+#remote_theme: "mcotes2020/jekyll-theme-chirpy"
 
 plugins:
   - jekyll-feed
