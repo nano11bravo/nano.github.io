@@ -28,6 +28,10 @@ github_username:  nano11bravo
 author:
   name:  Nano11Bravo
   email: nano@seven-labs.com
+  social:
+    github: nano11bravo
+    twitter: nano11bravo
+    youtube: https://www.youtube.com/@nano11bravo
 
 accent_image: /assets/img/sidebar-bg.jpg
 accent_color: rgb(79,177,186)
