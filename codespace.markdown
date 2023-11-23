@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Code Repository
+title: Codespace
 permalink: /codespace/
 ---
 
-Stuff I've written in the past...
+Open source scripts, applications, and other sniplets I've written in the past.
