@@ -35,6 +35,9 @@ legal:
   - title: Cookies Policy
     url:  /cookies-policy/
 
+hydejack:
+  cookies_banner: true
+  
 # Build settings
 #theme: minima
 #theme: jekyll-theme-hydejack
