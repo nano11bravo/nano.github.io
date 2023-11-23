@@ -1,198 +1,99 @@
-// Register MorphSVGPlugin
-gsap.registerPlugin(MorphSVGPlugin);
-// Convert all SVG Shapes to Path for MorphSVGPlugin
-MorphSVGPlugin.convertToPath("circle, rect, ellipse, line, polygon, polyline");
+var 
+	yetiTL, chatterTL,
+    	furLightColor = "#FFF",
+    	furDarkColor = "#67b1e0",
+    	skinLightColor = "#ddf1fa",
+    	skinDarkColor = "#88c9f2",
+    	lettersSideLight = "#3A7199",
+    	lettersSideDark = "#051d2c",
+    	lettersFrontLight = "#67B1E0",
+    	lettersFrontDark = "#051d2c",
+    	lettersStrokeLight = "#265D85",
+    	lettersStrokeDark = "#031219",
+    	mouthShape1 = "M149 115.7c-4.6 3.7-6.6 9.8-5 15.6.1.5.3 1.1.5 1.6.6 1.5 2.4 2.3 3.9 1.7l11.2-4.4 11.2-4.4c1.5-.6 2.3-2.4 1.7-3.9-.2-.5-.4-1-.7-1.5-2.8-5.2-8.4-8.3-14.1-7.9-3.7.2-5.9 1.1-8.7 3.2z",
+    	mouthShape2 = "M161.2 118.9c0 2.2-1.8 4-4 4s-4-1.8-4-4c0-1 .4-2 1.1-2.7.7-.8 1.8-1.3 2.9-1.3 2.2 0 4 1.7 4 4z",
+    	mouthShape3 = "M150.2 118.3c-4.6 3.7-7.5 6.4-6.3 12.3.1.5.1.6.3 1.1.6 1.5 2.4 2.3 3.9 1.7 0 0 7.9-4.3 10.7-5.5s11.6-3.3 11.6-3.3c1.5-.6 2.3-2.4 1.7-3.9-.2-.5-.2-.6-.4-1.1-2.8-5.2-7.1-4.9-12.9-4.6-3.7.4-6.3 1.5-8.6 3.3z",
+    	mouthShape4 = "M149.2 116.7c-4.6 3.7-6.7 8.8-5.2 14.6.1.3.1.5.2.8.6 1.5 2.4 2.3 3.9 1.7l11.2-4.4 11.2-4.4c1.5-.6 2.3-2.4 1.7-3.9-.1-.3-.2-.5-.4-.7-2.8-5.2-8.2-7.2-14-6.9-3.6.2-5.9 1.1-8.6 3.2z"
+;
 
-const select = function (el) {
-  return document.querySelector(el);
-},
-ghostShy = select('#ghost-all'),
-ghostShyEyes = select('#ghost--eyes'),
-ghostFriendly = select('#ghost-friendly-all'),
-ghostFriendlyEyes = select('.eyes--happy');
+chatterTL = new TimelineMax({paused: true, repeat: -1, yoyo: true});
+chatterTL
+	.to(['#mouthBG', '#mouthPath', '#mouthOutline'], .1, {morphSVG: mouthShape4}, "0")
+	//.to('#armR', .1, {x: 2, ease: Linear.easeNone}, "0")
+	.to('#chin', .1, {y: 1.5}, "0")
+;
 
-gsap.set('svg', {
-  visibility: 'visible' });
+yetiTL = new TimelineMax({paused: true, repeat: -1, repeatDelay: 0, delay: 0});
+yetiTL
+	.addCallback(function() {
+		chatterTL.play();	
+	}, "0")
+	
+	.to(['#armL', '#flashlightFront'], .075, {x: 7}, "2.5")
+	.to(['#armL', '#flashlightFront'], .075, {x: 0}, "2.575")
+	.to(['#armL', '#flashlightFront'], .075, {x: 7}, "2.65")
+	.to(['#armL', '#flashlightFront'], .075, {x: 0}, "2.725")
+	.to(['#armL', '#flashlightFront'], .075, {x: 7}, "2.8")
+	.to(['#armL', '#flashlightFront'], .075, {x: 0}, "2.875")
 
+	.addCallback(goLight, "3.2")
+	.addCallback(goDark, "3.3")
+	.addCallback(goLight, "3.4")
 
-gsap.set('.mouth--frown, .mouth--sad', {
-  transformOrigin: "50% 50%",
-  opacity: 0 });
+	.addCallback(function() {
+		chatterTL.pause();
+		TweenMax.to(['#mouthBG', '#mouthPath', '#mouthOutline'], .1, {morphSVG: mouthShape1}, "0");
+	}, "3.2")
 
+	.to(['#mouthBG', '#mouthPath', '#mouthOutline'], .25, {morphSVG: mouthShape2}, "5")
+	.to('#tooth1', .1, {y: -5}, "5")
+	.to('#armR', .5, {x: 10, y: 30, rotation: 10, transformOrigin: "bottom center", ease: Quad.easeOut}, "4")
+	.to(['#eyeL', '#eyeR'], .25, {scaleX: 1.4, scaleY: 1.4, transformOrigin: "center center"}, "5")
 
-// Animations Full Movie
-function ghostEyeBlink() {
-  const tl = gsap.timeline({
-    repeat: -1,
-    repeatDelay: 4 });
+	.addCallback(goDark, "8")
+	.addCallback(goLight, "8.1")
+	.addCallback(goDark, "8.3")
+	.addCallback(goLight, "8.4")
+	.addCallback(goDark, "8.6")
 
-  tl.from('#ghost--eyes', {
-    transformOrigin: "center",
-    scaleY: 0,
-    duration: 0.2,
-    yoyo: true });
+	.to(['#mouthBG', '#mouthPath', '#mouthOutline'], .25, {morphSVG: mouthShape1}, "9")
+	.to('#tooth1', .1, {y: 0}, "9")
+	.to('#armR', .5, {x: 0, y: 0, rotation: 0, transformOrigin: "bottom center", ease: Quad.easeOut}, "9")
+	.to(['#eyeL', '#eyeR'], .25, {scaleX: 1, scaleY: 1, transformOrigin: "center center"}, "9")
+	.addCallback(function() {
+		chatterTL.play();
+	}, "9.25")
 
-  return tl;
+	.to(['#armL', '#flashlightFront'], .075, {x: 7}, "11.5")
+	.to(['#armL', '#flashlightFront'], .075, {x: 0}, "11.575")
+	.to(['#armL', '#flashlightFront'], .075, {x: 7}, "11.65")
+	.to(['#armL', '#flashlightFront'], .075, {x: 0}, "11.725")
+	.to(['#armL', '#flashlightFront'], .075, {x: 7}, "11.8")
+	.to(['#armL', '#flashlightFront'], .075, {x: 0}, "11.875")
+
+;
+
+function goDark() {
+	TweenMax.set('#light', {visibility: "hidden"});
+	
+	TweenMax.set('.lettersSide', {fill: lettersSideDark, stroke: lettersStrokeDark});
+	TweenMax.set('.lettersFront', {fill: lettersFrontDark, stroke: lettersStrokeDark});
+	TweenMax.set('#lettersShadow', {opacity: .05});
+	
+	TweenMax.set('.hlFur', {fill: furDarkColor});
+	TweenMax.set('.hlSkin', {fill: skinDarkColor});
 }
 
-function ghostFriendlyEyeBlink() {
-  const tl = gsap.timeline({
-    repeat: -1,
-    repeatDelay: 5 });
-
-  tl.from(ghostFriendlyEyes, {
-    transformOrigin: "center",
-    scaleY: 0,
-    duration: 0.2,
-    yoyo: true });
-
-  return tl;
+function goLight() {
+	TweenMax.set('#light', {visibility: "visible"});
+	
+	TweenMax.set('.lettersSide', {fill: lettersSideLight, stroke: lettersStrokeLight});
+	TweenMax.set('.lettersFront', {fill: lettersFrontLight, stroke: lettersStrokeLight});
+	TweenMax.set('#lettersShadow', {opacity: .2});
+	
+	TweenMax.set('.hlFur', {fill: furLightColor});
+	TweenMax.set('.hlSkin', {fill: skinLightColor});
 }
 
-// Sign Movement	
-function ghostSign() {
-  const tl = gsap.timeline();
-  tl.from('#sign', {
-    transformOrigin: 'center',
-    y: 0.5,
-    rotation: -1,
-    yoyo: true,
-    repeat: -1,
-    duration: 1.5 });
-
-  return tl;
-}
-
-// Ghosts Hover Movement
-const randomX = gsap.utils.random(-5, 5, true);
-const randomY = gsap.utils.random(-6, 5, true);
-const randomTime = gsap.utils.random(3, 2, true);
-
-gsap.set('#ghost-friendly-all, #ghost-all', {
-  x: randomX,
-  y: randomY });
-
-
-function ghostMovement() {
-  const tl = gsap.timeline({
-    repeat: -1,
-    repeatRefresh: true });
-
-  tl.to('#ghost-friendly-all, #ghost-all', {
-    duration: randomTime,
-    x: randomX,
-    y: randomY });
-
-  return tl;
-}
-
-// Shy Ghost
-gsap.set('.ghost-shadow', {
-  transformOrigin: "50% 50%",
-  scale: "60%" });
-
-
-gsap.set('.blush', {
-  opacity: 0,
-  x: 10,
-  y: 10 });
-
-
-// Shy Ghost Expressions
-function ghostShyExpressions() {
-  const tl = gsap.timeline();
-  tl.to('#ghost--eyes, .mouth--straight', { x: -7, y: -10, duration: 2 }).
-  to('.mouth--straight', { morphSVG: { shape: '.mouth--sad', duration: .5, origin: "center center" } }, '-=.5').
-  to('#ghost--eyes, .mouth--straight', { x: 0, y: 0, duration: 2 }).
-  to('#ghost--eyes, .mouth--straight', { x: 10, y: -10, duration: 2, delay: 1 }).
-  to('#ghost--eyes, .mouth--straight', { y: 10, duration: 2.5 }).
-  to('.blush', { opacity: .5, duration: 1.5 }).
-  to('#ghost--eyes, .mouth--straight, .blush', { x: 0, duration: 1.5 }, '+=2').
-  to('.blush', { opacity: 0, duration: 1.5 }, '+=2').
-  to('#ghost--eyes, .mouth--straight', { x: 0, y: 0, duration: 2 }, '-=1');
-  return tl;
-}
-
-// Friendly Ghost
-// Set Friendly Ghost Opacity Items
-gsap.set('.mouth--curious, .mouth--surprised, .mouth--smile, .mouth--smile-tongue', {
-  opacity: 0 });
-
-
-gsap.set('#ghost-friendly-all', {
-  scale: .5,
-  opacity: 0,
-  transformOrigin: '70% 0%' });
-
-
-// Ghost Friendly Enter
-function ghostFriendlyEnter() {
-  const tl = gsap.timeline();
-  tl.to('#ghost-friendly-all', {
-    opacity: 1,
-    duration: 4,
-    scale: 1 });
-
-  return tl;
-}
-
-gsap.set('.eyes--happy', {
-  scale: .7,
-  opacity: 1,
-  x: 0,
-  transformOrigin: '50% 50%' });
-
-
-function ghostFriendlyExpressions() {
-  const tl = gsap.timeline();
-  tl.to('.eyes--happy, .mouth--smile-small', { keyframes: [
-    { x: -6, duration: 1.5, delay: 3 },
-    { x: 6, duration: 1.5 },
-    { x: 0, duration: 1 }] }).
-
-  to('.mouth--smile-small', { keyframes: [
-    { morphSVG: { shape: '.mouth--curious', duration: .1, origin: "center center" } },
-
-    { morphSVG: { shape: '.mouth--surprised', duration: .2, origin: "top right" } }] }).
-
-
-  to('.eyes--happy, .mouth--smile-small', { keyframes: [
-    { x: -6, duration: 1.5 },
-    { x: 0, duration: 1 },
-    { x: -6, duration: 1.5 },
-    { x: 0, duration: 1 }] },
-  '-=1').
-
-  to('.mouth--smile-small', { duration: .5, keyframes: [
-    { morphSVG: { shape: '.mouth--smile', origin: "center center" } }] });
-
-  return tl;
-}
-
-// Ghost Wave
-function ghostFriendlyArm() {
-  const tl = gsap.timeline();
-  tl.to('.arm--right-lower', { x: 5, y: 10, transformOrigin: "top left", rotation: "-70", duration: .75 }).
-  to('.mouth--smile-tongue', { opacity: 1, duration: .75 }, "-=1").
-  to('.arm--right-lower', { repeat: 6, keyframes: [
-    { rotation: "-60", duration: .25 },
-    { rotation: "-70", duration: .25 }] }).
-
-  to('.arm--right-lower', { x: 0, y: 0, transformOrigin: "top left", rotation: "0", duration: .75 });
-  return tl;
-}
-
-// Master Timeline
-const master = gsap.timeline();
-master.addLabel("start");
-master.add(ghostEyeBlink(), "start");
-master.add(ghostFriendlyEyeBlink(), "start");
-master.add(ghostSign(), "start");
-master.add(ghostMovement(), "start");
-master.add(ghostShyExpressions(), "start");
-master.addLabel("friendly", 2);
-master.add(ghostFriendlyEnter(), "friendly");
-master.add(ghostFriendlyExpressions(), "-=5");
-master.add(ghostFriendlyArm(), "+=1");
-
-//GSDevTools.create();
+goDark();
+yetiTL.play();
