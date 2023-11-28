@@ -16,7 +16,7 @@ permalink: /about/
 
 |  | Study | Organization | Location | Date |
 |:-----------------|:-----------|:-----------|:---------------|:---------------|
-| System & Network Engineering | Computer Science | University of Akron | Akron, Ohio | 2012 |
+| System/Network Engineering | Computer Science | University of Akron | Akron, Ohio | 2012 |
 | CCNA | Computer Science | DeVry University | Chicago, Illinois | 2010 |
 
 ![nano11bravo](./assets/img/waltons_sherman.png)
