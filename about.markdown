@@ -3,17 +3,11 @@ layout: page
 title: About
 permalink: /about/
 ---
-<h2>Work</h2>
+#Work Experience
 
-<h3><strong>System Administrator</strong><br />
-Seven-Labs, LLC<br />
-Cleveland, Ohio &middot; Nov 2012 to present</h3>
-
-<h2>Education</h2>
-
-<h3><strong>University of Akron</strong><br />
-CIS &middot; Computer Science &middot; System &amp; Network Engineering &middot; Akron, Ohio</h3>
-
-<h3><br />
-<strong>DeVry University</strong><br />
-Class of 2010 &middot; CCNA &middot; Downers Grove, Illinois</h3>
+| Title | Employer | Location | Date |
+|:-----------------|:-----------|:---------------|:---------------|
+| System Administrator | Seven-Labs, LLC | Cleveland, Ohio | Present |
+| Desktop Support | United Airlines | Cleveland, Ohio | 2019 |
+| Software Developer | Beacon Software | Brecksville, Ohio | 2017 | 
+| Infantryman (Army) | Department of Defense | Fort Benning, Georgia | 2014 |
