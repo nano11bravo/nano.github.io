@@ -9,8 +9,8 @@ Open source scripts, applications, and other sniplets I've written in the past.
 | Title | Language | Description | Link  |
 |:-----------------|:-----------|:---------------|:---------------|
 | LabsCrawlCPP | ![C++](https://img.icons8.com/material-rounded/24/c-plus-plus.png) | Simple web crawler written in C++ | [https://github.com/nano11bravo/labscrawlcpp](https://github.com/nano11bravo/labscrawlcpp) |
-| Speedtest | ![php](https://img.icons8.com/plumpy/24/php.png)![html](https://img.icons8.com/plumpy/24/html.png) | Basic speedtest utilizing jQuery 2.0.3 | [https://github.com/nano11bravo/speedtest](https://github.com/nano11bravo/speedtest) |
-
+| Speedtest | ![php](https://img.icons8.com/material-rounded/24/php.png)![html](https://img.icons8.com/material-rounded/24/html.png) | Basic speedtest utilizing jQuery 2.0.3 | [https://github.com/nano11bravo/speedtest](https://github.com/nano11bravo/speedtest) |
+| DD-WRT Helpers | ![shell](https://img.icons8.com/material-rounded/24/placeholder-thumbnail-xml.png) | Failover and other bash scripts for DD-WRT | [https://github.com/nano11bravo/ddwrt-labs](https://github.com/nano11bravo/ddwrt-labs)
 
 
 ~~~js
