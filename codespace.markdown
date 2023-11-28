@@ -6,8 +6,8 @@ permalink: /codespace/
 
 Open source scripts, applications, and other sniplets I've written in the past.
 
-| Title | Language| Description | Link  |
-|-----------------|:-----------|:---------------:|---------------:|
+| Title | Language | Description | Link  |
+|:-----------------|:-----------|:---------------|:---------------|
 | LabsCrawlCPP | C++ | Simple web crawler written in C++. | https://github.com/nano11bravo/labscrawlcpp |
 
 ~~~js
@@ -23,5 +23,5 @@ adder(2, 6);
 // > 8
 ~~~
 
-An optional caption for a code block
+Simple math in JavaScript.
 {:.figcaption}
