@@ -9,6 +9,7 @@ Open source scripts, applications, and other sniplets I've written in the past.
 | Title | Language | Description | Link  |
 |:-----------------|:-----------|:---------------|:---------------|
 | LabsCrawlCPP | C++ | Simple web crawler written in C++. | [https://github.com/nano11bravo/labscrawlcpp](https://github.com/nano11bravo/labscrawlcpp) |
+| Speedtest | PHP/HTML | Basic speedtest utilizing jQuery 2.0.3 | [https://github.com/nano11bravo/speedtest](https://github.com/nano11bravo/speedtest) |
 
 ~~~js
 // file: "code-block.js"
