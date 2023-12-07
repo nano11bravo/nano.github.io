@@ -16,7 +16,13 @@ My name is Samuel Walton and I am a 36 year old tech enthuiast. My past experien
 in the active duty Army.  
 
 ## Work Experience
-detailed table here
+
+### DIGITAL TECHNOLOGY SERVICES EXPERT, UNITED AIRLINES
+#### OCTOBER 2018 – JANUARY 2019
+• Provided device inventory control to United employees at the Cleveland Hopkins facility.
+• Maintained United Airlines Express battery change-overs for incoming flights.
+• Obtained official airport badge and kept up with on-going training.
+
 
 ## Education
 list of facilities, topics, studies, etc
