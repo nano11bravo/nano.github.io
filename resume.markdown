@@ -9,3 +9,12 @@ permalink: /resume/
 * Certifications
 * Contact Information
 {:toc}
+
+## Work Experience
+detailed table here
+
+## Education
+list of facilities, topics, studies, etc
+
+## Certifications
+Professional based certs like A++, etc..
