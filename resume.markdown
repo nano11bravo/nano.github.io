@@ -17,11 +17,11 @@ in the active duty Army.
 
 ## Work Experience
 
-### DIGITAL TECHNOLOGY SERVICES EXPERT, UNITED AIRLINES
-#### OCTOBER 2018 – JANUARY 2019
-• Provided device inventory control to United employees at the Cleveland Hopkins facility.
-• Maintained United Airlines Express battery change-overs for incoming flights.
-• Obtained official airport badge and kept up with on-going training.
+DIGITAL TECHNOLOGY SERVICES EXPERT, UNITED AIRLINES{:.lead}
+OCTOBER 2018 – JANUARY 2019
+• Provided device inventory control to United employees at the Cleveland Hopkins airport.<br/>
+• Maintained United Airlines Express battery change-overs for incoming flights.<br/>
+• Obtained security badge and kept up with on-going training.<br/>
 
 
 ## Education
