@@ -3,4 +3,9 @@ layout: page
 title: "Résumé"
 permalink: /resume/
 ---
-My resume in html5 and pdf formats.
+* Work Experience
+* Education
+* Skills
+* Certifications
+* Contact Information
+{:toc}
