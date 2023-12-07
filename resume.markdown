@@ -18,3 +18,6 @@ list of facilities, topics, studies, etc
 
 ## Certifications
 Professional based certs like A++, etc..
+
+## Contact Information
+My phone number, public email, and another form of contact..
