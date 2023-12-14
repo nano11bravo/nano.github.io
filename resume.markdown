@@ -17,33 +17,28 @@ in the active duty Army.
 
 ## Work Experience
 
-<h3>DIGITAL TECHNOLOGY SERVICES EXPERT, UNITED AIRLINES<small>OCTOBER 2018 – JANUARY 2019</small></h3>
-<h6>OCTOBER 2018 – JANUARY 2019</h6>
+<h3>DIGITAL TECHNOLOGY SERVICES EXPERT, UNITED AIRLINES<br /><small>OCTOBER 2018 – JANUARY 2019</small></h3>
 • Provided device inventory control to United employees at the Cleveland Hopkins airport.<br/>
 • Maintained United Airlines Express battery change-overs for incoming flights.<br/>
 • Obtained security badge and kept up with on-going training.
 
-<h3>SECURITY OFFICER, ALLIED UNIVERISAL</h3>
-<h5>DECEMBER 2017 - SEPTEMBER 2018</h5>
+<h3>SECURITY OFFICER, ALLIED UNIVERISAL<br /><small>DECEMBER 2017 - SEPTEMBER 2018</small></h3>
 • Managed surveillance system and provided access control to clients.<br/>
 • Directed training to familiarize personnel with security practices.<br/>
 • Provided asset protection which involved regular patrols throughout the facility.<br/>
 • Helped to provide techniques for safety in industrial environment.
 
-<h3>SOFTWARE DEVELOPER, BEACON SOFTWARE</h3>
-<h5>MARCH 2017 – NOVEMBER 2017</h5>
+<h3>SOFTWARE DEVELOPER, BEACON SOFTWARE<br /><small>MARCH 2017 – NOVEMBER 2017</h3>
 • Performed tasks in Visual Studio 2017 using AGILE development methodology.<br/>
 • Worked with sales team to implement changes to .NET framework applications.<br/>
 • Assigned to improve a full stack application and provide on-going updates to application life cycle.
 
-<h3>INFANTRYMAN, UNITED STATES ARMY</h3>
-<h5>FEBRUARY 2014 - FEBRUARY 2017</h5>
+<h3>INFANTRYMAN, UNITED STATES ARMY<br /><small>FEBRUARY 2014 - FEBRUARY 2017</small></h3>
 • Participated in prestigious “Manchu Mile” during deployment to South Korea.<br/>
 • Acquired various team-building tactics while working closely with individuals on assigned tactical missions and related.<br/>
 • Ended time in service with Honorable Discharge from Active Duty in February 2017, served in the Reserves for 3 years after active duty.
 
-<h3>MANAGED SERVICES ENGINEER, OPENTEXT</h3>
-<h5>FEBRUARY 2011 – NOVEMBER 2013</h5>
+<h3>MANAGED SERVICES ENGINEER, OPENTEXT<br /><small>FEBRUARY 2011 – NOVEMBER 2013</small></h3>
 • Designated as Subject Matter Expert for multiple software applications within corporation.<br/>
 • Acclimated with terminology such as Service Level Agreements and Root Cause Analysis which were vital to maintaining a successful Technical Support department.<br/>
 • Delivered broad technical ability and knowledge of ticketing systems to internal employees.<br/>
