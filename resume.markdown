@@ -21,8 +21,33 @@ in the active duty Army.
 <h4>OCTOBER 2018 – JANUARY 2019</h4>
 • Provided device inventory control to United employees at the Cleveland Hopkins airport.<br/>
 • Maintained United Airlines Express battery change-overs for incoming flights.<br/>
-• Obtained security badge and kept up with on-going training.<br/>
+• Obtained security badge and kept up with on-going training.
 
+<h3>SECURITY OFFICER, ALLIED UNIVERISAL</h3>
+<h4>DECEMBER 2017 - SEPTEMBER 2018</h4>
+• Managed surveillance system and provided access control to clients.<br/>
+• Directed training to familiarize personnel with security practices.<br/>
+• Provided asset protection which involved regular patrols throughout the facility.<br/>
+• Helped to provide techniques for safety in industrial environment.
+
+<h3>SOFTWARE DEVELOPER, BEACON SOFTWARE</h3>
+<h4>MARCH 2017 – NOVEMBER 2017</h4>
+• Performed tasks in Visual Studio 2017 using AGILE development methodology.<br/>
+• Worked with sales team to implement changes to .NET framework applications.<br/>
+• Assigned to improve a full stack application and provide on-going updates to application life cycle.
+
+<h3>INFANTRYMAN, UNITED STATES ARMY</h3>
+<h4>FEBRUARY 2014 - FEBRUARY 2017</h4>
+• Participated in prestigious “Manchu Mile” during deployment to South Korea.<br/>
+• Acquired various team-building tactics while working closely with individuals on assigned tactical missions and related.<br/>
+• Ended time in service with Honorable Discharge from Active Duty in February 2017, served in the Reserves for 3 years after active duty.
+
+<h3>MANAGED SERVICES ENGINEER, OPENTEXT</h3>
+<h4>FEBRUARY 2011 – NOVEMBER 2013</h4>
+• Designated as Subject Matter Expert for multiple software applications within corporation.<br/>
+• Acclimated with terminology such as Service Level Agreements and Root Cause Analysis which were vital to maintaining a successful Technical Support department.<br/>
+• Delivered broad technical ability and knowledge of ticketing systems to internal employees.<br/>
+• Assigned to distinctive assignments which required software development and educated on many UNIX based systems and UNIX based applications.
 
 ## Education
 list of facilities, topics, studies, etc
