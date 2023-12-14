@@ -48,12 +48,7 @@ menu:
     url:   /reviews/
   - title: Social
     url:   /social/
-  - title: "Impulse101"
-    url:   https://www.impulse101.cc/
 
-# Build settings
-#theme: minima
-#theme: jekyll-theme-hydejack
 remote_theme: "hydecorp/hydejack"
 
 plugins:
