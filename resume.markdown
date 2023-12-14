@@ -28,7 +28,7 @@ in the active duty Army.
 • Provided asset protection which involved regular patrols throughout the facility.<br/>
 • Helped to provide techniques for safety in industrial environment.
 
-<h3>SOFTWARE DEVELOPER, BEACON SOFTWARE<br /><small>MARCH 2017 – NOVEMBER 2017</h3>
+<h3>SOFTWARE DEVELOPER, BEACON SOFTWARE<br /><small>MARCH 2017 – NOVEMBER 2017</small></h3>
 • Performed tasks in Visual Studio 2017 using AGILE development methodology.<br/>
 • Worked with sales team to implement changes to .NET framework applications.<br/>
 • Assigned to improve a full stack application and provide on-going updates to application life cycle.
