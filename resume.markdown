@@ -53,7 +53,9 @@ in the active duty Army.
 list of facilities, topics, studies, etc
 
 ## Certifications
-Professional based certs like A++, etc..
+• Security Clearance, Type = Secret (expires February 2025)<br/>
+• Battlefield First Respondent Training (acquired February 2014)<br/>
+• Cisco Certified Network Associate (acquired January 2010)
 
 ## Contact Information
 My phone number, public email, and another form of contact..
