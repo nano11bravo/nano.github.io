@@ -53,8 +53,8 @@ list of facilities, topics, studies, etc
 • Cisco Certified Network Associate (acquired January 2010)
 
 ## Contact Information
-You can always drop me a line at [mailto:nano@seven-labs.com](nano@seven-labs.com) or [mailto:nano@waltontech.org](nano@waltontech.org). 
+You can always drop me a line at [nano@seven-labs.com](mailto:nano@seven-labs.com) or [nano@waltontech.org](mailto:nano@waltontech.org). 
 <br />
 My github repositories are available here. [https://www.github.com/nano11bravo](https://www.github.com/nano11bravo)
 <br /><br />
-Or you can always contact me by using this [./contact](contact form)!
+Or you can always contact me by using this [contact form](./contact)!
