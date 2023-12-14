@@ -57,4 +57,4 @@ You can always drop me a line at [nano@seven-labs.com](mailto:nano@seven-labs.co
 <br />
 My github repositories are available here. [https://www.github.com/nano11bravo](https://www.github.com/nano11bravo)
 <br /><br />
-Or you can always contact me by using this [contact form](./contact)!
+Or you can always send messages to me by using this [contact form](./contact)!
