@@ -5,6 +5,14 @@ permalink: /about/
 ---
 ## Work Experience
 
+<script language="javascript">
+//when the webpage is loaded
+jQuery(document).ready(function($) {
+alert("js is working");
+});
+</script>
+
+
 | Position | Employer | Location | Date |
 |:-----------------|:-----------|:---------------|:---------------|
 | System Administrator | Seven-Labs, LLC | Cleveland, Ohio | Present |

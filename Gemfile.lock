@@ -11,15 +11,16 @@ GEM
       minitest (>= 5.1)
       mutex_m
       tzinfo (~> 2.0)
-    addressable (2.8.5)
+    addressable (2.8.6)
       public_suffix (>= 2.0.2, < 6.0)
     base64 (0.2.0)
-    bigdecimal (3.1.4)
+    bigdecimal (3.1.5)
     coffee-script (2.4.1)
       coffee-script-source
       execjs
     coffee-script-source (1.11.1)
     colorator (1.1.0)
+    commonjs (0.2.7)
     commonmarker (0.23.10)
     concurrent-ruby (1.2.2)
     connection_pool (2.4.1)
@@ -40,6 +41,8 @@ GEM
       ruby2_keywords (>= 0.0.4)
     faraday-net_http (3.0.2)
     ffi (1.16.3-x64-mingw-ucrt)
+    font-awesome-less (4.7.0)
+      less (>= 2.4.0)
     forwardable-extended (2.6.0)
     gemoji (3.0.1)
     github-pages (228)
@@ -214,6 +217,8 @@ GEM
       rexml
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
+    less (2.6.0)
+      commonjs (~> 0.2.7)
     liquid (4.0.4)
     listen (3.8.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
@@ -271,6 +276,7 @@ PLATFORMS
   x64-mingw-ucrt
 
 DEPENDENCIES
+  font-awesome-less
   github-pages (~> 228)
   http_parser.rb (~> 0.6.0)
   jekyll-feed (~> 0.12)

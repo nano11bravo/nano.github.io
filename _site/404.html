@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Page 404 Terminal</title>
+    <title>Document Not Found - WaltonTech</title>
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <style>
@@ -221,10 +221,12 @@ const COMMANDS = {
     "exit":
         "",
     "report":
-        "<span class='green'>This page report has been successfully sent to support.</span>",
+        "<span class='green'>This report has been successfully sent to support.</span>",
     "commands":
         "List of commands: <span class=\"red\"> help</span> , <span class=\"red\"> report</span> ,<span class=\"red\"> exit</span>\n",
-    "cls":
+    "joke":
+        "A cow says: Moo!",
+    "clear":
         ""
 };
 
@@ -247,28 +249,28 @@ const app = () => {
     document.addEventListener("keydown", backSpace);
 };
 
-//When the user click the 'Enter' key
+// When the user click the 'Enter' key
 const execute = function executeCommand(input) {
     let output;
 
     if (input.length === 0) {
         return;
     }
-    //If what the user entered is not in the command list
+    // If what the user entered is not in the command list
     if (!COMMANDS.hasOwnProperty(input)) {
         output = `<p>The command entered is not correct</p>`;
     }
-    //If user enter the word cls
+    // If user enter the word cls
     else if (input === "cls") {
         terminalOutput.innerHTML = "";
         return;
     }
-    //If the user enters one of the words 'exit' and 'close'
+    // If the user enters one of the words 'exit' and 'close'
     else if (input === "close" || input === "exit") {
-        document.location.href = "../../index.html" // The link that the user enters after sending the exit
+        document.location.href = "https://www.waltontech.org/" // The link that the user enters after sending the exit
         return;
     }
-    //If the user enters the word report
+    // If the user enters the word report
     else if (input === "report") {
         terminalOutput.innerHTML = `${
             terminalOutput.innerHTML
@@ -276,7 +278,7 @@ const execute = function executeCommand(input) {
 
         return;
     }
-    //Otherwise, the text of the command will be displayed as output
+    // Otherwise, the text of the command will be displayed as output
     else {
         output = COMMANDS[input];
     }
@@ -287,7 +289,7 @@ const execute = function executeCommand(input) {
     Terminal.scrollTop = terminalOutput.scrollHeight;
 };
 let str = '';
-//when user click any key
+// When user types any key
 const key = function keyEvent(event) {
     let currentKey = event.key;
     Keyboard.focus();
@@ -315,9 +317,9 @@ const key = function keyEvent(event) {
         userInput.innerHTML = str;
     }
 }
-//when user click 'BackSpace' key
+// When user types 'BackSpace' key
 const backSpace = function backSpace(e){
-    //if user click backspace
+    // If user types backspace
     if (e.keyCode === 8) {
         userInput.innerHTML = userInput.innerHTML.slice(
             0,
@@ -329,7 +331,7 @@ const backSpace = function backSpace(e){
         );
     }
 }
-//When the user clicks on a control buttons
+// When the user clicks on a control button
 const BTNS = function MenuBTN(t) {
     switch (t) {
         case "max":
