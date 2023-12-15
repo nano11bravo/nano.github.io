@@ -13,8 +13,8 @@ Python 2/3 (Get multiple versions at [https://www.python.org/downloads/](https:/
 I've created this simple how-to for a friend to hopefully get started with their Python coding adventure and whoever else finds this interesting. 
 Some important things to note here are that Python is strict when it comes formalities. For example you must use 4 spaces for indent.  Also when using the following sniplet please ensure to specify the path to your newly created python script. 
 
-This sniplet below can be ran with any Python intrepreter. Create a new text file name it ``helloworld.py`` and then access python using command prompt (``Windows Key + R``) and type the following:
-``python helloworld.py``
+This sniplet below can be ran with any Python intrepreter. Create a new text file name it ``helloworld.py`` and then access python using command prompt ``Windows Key + R`` (Apple Users: [https://docs.python.org/3/using/mac.html](https://docs.python.org/3/using/mac.html)) and type the following:
+``python helloworld.py`` 
 
 ~~~python
 print("Hello World.")
