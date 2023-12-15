@@ -1,7 +1,5 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
+title: Welcome
 layout: home
 ---
 Welcome to the blog of nano11bravo.
@@ -10,4 +8,4 @@ You can expect to find random facts and stories here about my life. You might al
 
 Thanks for visiting!
 
-![nano11bravo](./assets/img/nano11bravo-logo4.png)
+<iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/mtKBDt?gui=false&t=10&paused=false&muted=true" allowfullscreen></iframe>
