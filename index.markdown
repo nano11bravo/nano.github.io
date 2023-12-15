@@ -1,5 +1,5 @@
 ---
-title: Welcome
+title: Willkommen &bull; Bienvenue &bull; Witaj
 layout: home
 ---
 Welcome to the blog of nano11bravo.
