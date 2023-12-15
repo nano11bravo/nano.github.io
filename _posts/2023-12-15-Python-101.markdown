@@ -5,11 +5,15 @@ title:  "Python 101"
 date:   2023-12-15 15:56:06 -0500
 categories: Tutorials
 ---
-I am writing this simple how-to for a friend to hopefully get started with their Python coding adventure and whoever else finds this interesting. 
-Some important things to note here are that Python is strict when it comes formalities. For example you must use 4 spaces for indent. 
 
-This sniplet below can be ran with any Python intrepreter. Create a new text file name it "helloworld.py" and then access python using command prompt (cmd.exe) 
+<strong>Prerequisites</strong><br />
+Python 2/3 (Get multiple versions at [https://www.python.org/downloads/](https://www.python.org/downloads/))
 
+## Let's Begin 
+I've created this simple how-to for a friend to hopefully get started with their Python coding adventure and whoever else finds this interesting. 
+Some important things to note here are that Python is strict when it comes formalities. For example you must use 4 spaces for indent.  Also when using the following sniplet please ensure to specify the path to your newly created python script. 
+
+This sniplet below can be ran with any Python intrepreter. Create a new text file name it ``helloworld.py`` and then access python using command prompt (``Windows Key + R``) and type the following:
 ``python helloworld.py``
 
 ~~~python
@@ -23,3 +27,6 @@ if catjam == 1:
     print("We have catjam.")
 
 ~~~
+
+If all goes well you should see an output like this.
+![Alt text](/assets/img/python101.png)
